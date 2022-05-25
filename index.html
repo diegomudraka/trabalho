@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <div class="center">
+    <link rel="stylesheet" href="formulario.css">
+    <a href="paginaum.html">Voltar</a>
+    <div class="menu">
+
+    </div><!--Menu-->
+    </div><!--center-->
+    <title>Formulario</title>
+        
+        
+
+</head>
+<body>
+    <h1>Formulario</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form methoid="POST">
+            <label for="id_nome">Nome:</label>
+            <br>
+            <input type="text"
+            name="Nome"
+            placeholder="Digite seu nome"
+            id="id_nome"
+            required >
+            <br>
+            <label for="id_nascimento">Data de nascimento</label>
+            <input id="date" type="date"
+            required >
+            <br>
+            <label for="e-mail">Informe seu E-mail</E-mail></label>
+            <input type="email"
+            id="email"
+            name="email"
+            required >
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone"required placeholder="(xx) xxxxx-xxxx">
+            <br>
+    </fieldset>
+    <fieldset>
+        <legend>Dados acadêmicos</legend>
+        <label for="opção">Curso:</label>
+        <select name="opção">
+            <option value="10">ADS</option>
+            <option value="20">GTI</option>
+            <option value="30">TBD</option>
+            <option value="40">TSI</option>
+        </select>
+        <br>
+        <input type="radio"
+        name="Semestre"
+        value="1°semestre"
+        id="semestre1"
+        >
+        <label for="semestre1">1°</label>
+        <input type="radio"
+        name="semestre"
+        value="2°semestre"
+        id="semestre2"
+        >
+        <label for="semestre2">2°</label>
+        <input type="radio"
+        name="semestre"
+        value="2°semestre"
+        id="semestre2"
+        >
+        <label for="semestre3">3°</label>
+        <input type="radio"
+        name="semestre"
+        value="3°semestre"
+        id="semestre3"
+        checked
+        >
+        <label for="semestre4">4°</label>
+        <input type="radio"
+        name="semestre"
+        value="4°semestre"
+        id="semestre4"
+        
+        >
+        <label for="semestre5">5°</label>
+    </fieldset>
+    <br>
+    <fieldset class="cheboxtrabalho">
+        <input type="checkbox" id="trabalho" name="trabalho1" value="Trabalha">
+        <label for="trabalho1">Você trabalha?</label>
+        <br>
+        <label for="id_localdetrabalho1">Local de trabalho</label>
+        <input type="text"
+        name="localdetrabalho"
+        placeholder="Digite seu local de trabalho"
+        id="id_localdetrabalho1"
+        required>
+        <br>
+        <label for="id_Experiencia1">Descreva a sua Experiência:</label>
+        <br>
+        <textarea id="Experiência1" name="experiência"></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>

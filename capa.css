@@ -1,0 +1,6 @@
+head, body, html{
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
